@@ -5,27 +5,28 @@ Upstream-Name: Data-Printer
 
 Files: *
 Copyright:
-  2011-2021, Breno G. de Oliveira <garu@cpan.org>
+  2011-2024 Breno G. de Oliveira <garu@cpan.org>
 License: Artistic or GPL-1+
 
-Files: debian/*
+Files:
+ debian/*
 Copyright:
-  2012-2015, Florian Schlichting <fsfs@debian.org>
-  2021, Jonas Smedegaard <dr@jones.dk>
-License: Artistic or GPL-1+
+  2012-2023  Florian Schlichting <fsfs@debian.org>
+  2021-2023  Jonas Smedegaard <dr@jones.dk>
+License-Grant:
+ This program is free software;
+ you can redistribute it and/or modify it
+ under the terms of the GNU General Public License
+ as published by the Free Software Foundation;
+ either version 3, or (at your option) any later version.
+License: GPL-3+
+Reference: debian/copyright
 
 License: Artistic
- This program is free software; you can redistribute it and/or modify
- it under the terms of the Artistic License, which comes with Perl.
- .
- On Debian systems, the complete text of the Artistic License can be
- found in `/usr/share/common-licenses/Artistic'.
+Reference: /usr/share/common-licenses/Artistic
 
 License: GPL-1+
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 1, or (at your option)
- any later version.
- .
- On Debian systems, the complete text of version 1 of the GNU General
- Public License can be found in `/usr/share/common-licenses/GPL-1'.
+Reference: /usr/share/common-licenses/GPL-1
+
+License: GPL-3+
+Reference: /usr/share/common-licenses/GPL-3
