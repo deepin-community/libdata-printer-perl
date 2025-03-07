@@ -1,3 +1,53 @@
+libdata-printer-perl (1.002001-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.002001.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.7.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 27 Apr 2024 22:20:54 +0200
+
+libdata-printer-perl (1.001001-1) unstable; urgency=medium
+
+  * Import upstream version 1.001001.
+  * Update copyright years
+
+ -- Florian Schlichting <fsfs@debian.org>  Sun, 22 Oct 2023 01:32:20 +0200
+
+libdata-printer-perl (1.001000-1) unstable; urgency=medium
+
+  [ upstream ]
+  * new release
+
+  [ Jonas Smedegaard ]
+  * add git-buildpackage config:
+    + use pristine-tar
+    + sign tags
+    + use DEP-14 git branches
+    + enable automatic DEP-14 branch name handling
+    + add usage config
+  * add source helper tool copyright-check
+  * update copyright info:
+    + update coverage
+    + use field Reference
+    + relicense my packaging work as GPL-3+
+  * declare compliance with Debian Policy 4.6.2
+
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 02 Jan 2023 17:07:30 +0100
+
+libdata-printer-perl (1.000004-2) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * Team upload.
+  * Update debian/upstream/metadata.
+  * Set Rules-Requires-Root: no.
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.1, no changes needed.
+  * Apply multi-arch hints. + libdata-printer-perl: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 04 Dec 2022 18:47:54 +0000
+
 libdata-printer-perl (1.000004-1) unstable; urgency=medium
 
   [ upstream ]
